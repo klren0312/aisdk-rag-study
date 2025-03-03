@@ -10,6 +10,7 @@ import { generateEmbeddings } from '../ai/embedding'
 import { embeddings as embeddingsTable } from '../db/schema/embeddings'
 
 export const createResource = async (input: NewResourceParams) => {
+  console.log('createResource', input)
   try {
     const { content } = insertResourceSchema.parse(input);
 
