@@ -15,7 +15,7 @@ export async function POST(req: Request) {
   const { messages } = await req.json()
 
   const result = streamText({
-      model: customAI('hunyuan-functioncall'),
+      model: customAI('chatgpt-4o-latest'),
       messages,
       temperature: 1,
       system: `You are a helpful assistant. Check your knowledge base before answering any questions.

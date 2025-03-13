@@ -16,6 +16,7 @@
     "db:check": "drizzle-kit check"
   },
   "dependencies": {
+    "@ai-sdk/deepseek": "^0.1.13",
     "@ai-sdk/openai": "^1.1.13",
     "@ai-sdk/react": "^1.1.17",
     "@radix-ui/react-avatar": "^1.1.0",
